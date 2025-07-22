@@ -8,6 +8,10 @@ pessoas.setPeso(80.00);
 pessoas.setAltura(1.90);
 pessoas.setSexo("masculino");  
 
+ pessoas.Falar();
+ pessoas.Andar();
+ pessoas.Trabalhar();
+
 Professor professor = new Professor(); 
 professor.setNome("Alaric");
 professor.setIdade(40);
@@ -18,6 +22,11 @@ professor.setDisciplina("historia");
 professor.setNivelEnsino("ensino médio");
 professor.setSalario(4.800);
 professor.setCargaHoraria(20);
+
+
+professor.Falar();
+ professor.Andar();
+ professor.Trabalhar();
 
 Alunos alunos = new Alunos();
  alunos.setNome("Elena");
@@ -30,6 +39,10 @@ alunos.setCurso("ensino médio");
 alunos.setSeriePeriodo("3° ano, período da tarde");
 alunos.setFrequencia(80);
 alunos.setMediaFinal(8.5);
+
+alunos.Falar();
+ alunos.Andar();
+ alunos.Trabalhar();
 
 String mensagem = "\nNome: "+pessoas.getNome()+
                   "\nIdade: "+pessoas.getIdade()+
